@@ -1,0 +1,14 @@
+name: Build
+
+on: # trigger
+  push: # whenever code is pushed to github the workflow automatically runs
+  workflow_call: # whenever this workflow needs to be called from another workdlow
+  workflow_dispatch: # whenever you want the workflow to be called manually
+  schedule: # whenever you want the workflow to run at a specific time
+
+  jobs:
+    build:
+      runs-on:
+      steps:
+        - name:Test the 
+ 
